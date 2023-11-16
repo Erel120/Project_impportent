@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "189247915678",
+    "project_id": "realapp-353f5",
+    "storage_bucket": "realapp-353f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189247915678:android:b0f93c9185a97396371d8f",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1FrREIUuvJks14jzZcq9rVkWPECNkPfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
