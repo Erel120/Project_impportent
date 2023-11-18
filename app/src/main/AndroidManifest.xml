@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-<uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,14 +15,28 @@
         android:theme="@style/Theme.Material3.Light"
         tools:targetApi="31">
         <activity
-            android:name=".register"
-            android:theme="@style/Theme.Material3.Light.NoActionBar"
+            android:name=".list_view"
             android:exported="false" />
         <activity
+            android:name=".ui.login.List_view"
+            android:exported="false" />
+        <activity
+            android:name=".lst"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.list"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <activity
             android:name=".login"
-            android:theme="@style/Theme.Material3.Light.NoActionBar"
-            android:exported="true">
-        </activity>
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
         <activity
             android:name=".ui.login.LoginActivity"
             android:exported="false"

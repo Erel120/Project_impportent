@@ -9,15 +9,46 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-<TextView
-    android:id="@+id/user_details"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="ברוכים הבאים"/>
-    
+    <TextView
+        android:id="@+id/user_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="ברוכים הבאים"
+        android:textStyle="bold" />
+
     <Button
-        android:text="@string/logout"
         android:id="@+id/logout"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="@string/logout" />
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="שם מלא + כיתה:"/>
+
+    <EditText
+        android:id="@+id/code"
+        android:inputType="numberPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="קוד קבוצה:"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="המשך"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/txt_btn"
+        android:text="לחצו ליצירת קבוצה"
+        android:textAllCaps="false"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        app:icon="@drawable/baseline_play_arrow_24"
+        app:iconPadding="5dp" />
+
 </LinearLayout>
